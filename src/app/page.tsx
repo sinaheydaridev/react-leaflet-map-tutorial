@@ -61,7 +61,19 @@ const HomePage = () => {
     { id: "550e8400-e29b-41d4-a716-446655440049", lat: 51.5098, lng: -0.1467 },
   ];
 
-  return <Map center={{ lng: -0.1278, lat: 51.5074 }} locations={locations} />;
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+        height: "100vh",
+      }}
+    >
+      <Map center={{ lng: -0.1278, lat: 51.5074 }} locations={locations} />
+    </div>
+  );
 };
 
 export default HomePage;

@@ -75,8 +75,8 @@ export const Map: React.FC<MapProps> = memo(({ center, locations }) => {
     <>
       <div
         style={{
-          width: "100%",
-          height: "100vh",
+          width: "80%",
+          height: "80vh",
           borderRadius: "20px",
           overflow: "hidden",
         }}
